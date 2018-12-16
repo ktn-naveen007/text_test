@@ -1,0 +1,6 @@
+1.Jenkins
+2.Groovy
+3.Ansible
+4.Unix/Linus Shell scripting
+5.Docker
+6.Virtualization

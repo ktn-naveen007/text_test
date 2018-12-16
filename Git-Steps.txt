@@ -1,0 +1,76 @@
+1.Git init
+2.Jenkinsfile
+3.Create a repository in Git
+4.git remote add url
+5.git add *
+6.git commit -m ""
+7.git push origin master
+8.install exec:java -DmainClass="com.sample.JenkinScipts.Multiply"
+
+1.git stash
+git pull
+2.git branch feature/nav_test
+switch to branch
+3.git checkout feature/nav_test
+git commit - m""
+4.git push origin feature/nav_test
+5.git add --all
+https://github.com/ktn-naveen007/automation_test.git
+##########################################################
+clear
+git init
+git remote add origin /Volumes/500gb/myproject.git
+git pull origin master //central repo to local master,not git fetch 
+git status
+//index
+git add filename, git add -A
+git commit -m "",git commit -a -m ""
+git log
+git branch name
+git checkout name
+git merge branchname 		//checkout to mater destination branch
+cat filename //to show contents
+
+//Rebase is another form of git merge
+git checkout branch
+git add -A
+git commit -m ""
+git checkout master
+git rebase branchname
+
+
+//push
+
+ssh-keygen
+cat copypath
+ssh -T git@github.com
+
+git push origin branchname  //central repo
+git push origin master
+
+
+//revert
+git log
+copy firt 8 digits
+git checkout 8digits filename 
+
+
+###############################################
+git merge master
+
+git pull origin master
+
+
+git remote remove origin
+
+
+git revert number
+
+git reset --merge
+
+git remote -v
+
+:q
+
+insert
+escape, :wq
